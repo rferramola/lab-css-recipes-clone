@@ -10,7 +10,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin: 30px;
   padding: 0;
   font-weight: lighter;
 }
@@ -35,6 +35,20 @@ body {
   height: 700px;
 }
 
+/*
+a;adir div con height para hacer margen
+
+#section1{
+  background-image: url("../images/apple-pie.jpg");
+}
+
+#title{
+text-align:center;
+font-size:40px;
+padding-top:160px; usando calculo no tan recomendable
+border -radios redondea la imagen
+}*/
+
 #title{
 position: absolute;
 top: 50%;
@@ -50,6 +64,8 @@ font-size: 75px;
   justify-content: center;
   align-content: center;
   text-align: center;
+  margin: 0 auto;
+  padding: 7px;
 
 }
 
@@ -57,4 +73,10 @@ font-size: 75px;
   display: flex;
   justify-content: center;
   align-content: center;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.line{
+  width: 1050px;
 }

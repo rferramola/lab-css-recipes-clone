@@ -4,10 +4,11 @@ body,
 html,
 main {
   margin: 0;
+  font-family: "Helvetica";
 }
 /*Import the font and set the default size*/
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
 }
 
@@ -31,8 +32,20 @@ html {
   align-self: center;
 }
 
-.info-container{
-  padding: 50px;
+#info-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+  margin-top: 10px;
+}
+
+#info-container1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 65px;
+  margin-top: 10px;
 }
 
 #info {
@@ -40,10 +53,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
-  padding: 7px;
+  padding: 29px;
   align-items: center;
+  width: 65%;
+  margin-top: 20px;
 }
 
 #pic {
@@ -51,4 +66,46 @@ html {
   flex-direction: center;
   justify-content: center;
   align-items: center;
+}
+
+#section-3 {
+  margin-left: 30px;
+}
+
+#list {
+  list-style-type: none;
+}
+ul li::before {
+  content: "- ";
+}
+
+#soup {
+  padding-left: 20px;
+  margin-top: 40px
+}
+
+#section-4 {
+  margin-left: 30px;
+  margin-bottom: 5%;
+}
+
+#direction {
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+#list2{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-content: center;
+  text-align: left;
+  margin: 0 auto;
+  padding: 29px;
+  width: 88%;
+  margin-top: 20px;
+}
+
+.line{
+  width: 1050px;
 }

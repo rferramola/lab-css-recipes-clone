@@ -92,10 +92,11 @@ border -radios redondea la imagen
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  text-align: center;
+  text-align: left;
   margin: 25px auto;
   padding: 28px;
   align-items: center;
+  width: 68%;
 }
 
 .recipe-info {
@@ -148,5 +149,6 @@ aqui usamos propiedades flex
   flex-direction: column;
   align-self: center;
   padding-bottom: 60px;
+  width: 83%;
   
 }
